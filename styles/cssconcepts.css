@@ -1,5 +1,5 @@
 
-ul {
+.nav ul {
     font-size: 25px;
     list-style-type: none;
     margin: 0;
@@ -7,11 +7,11 @@ ul {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
   }
-  li {
+  .nav li {
     float: left;
   }
   
-  li a {
+  .nav li a {
     display: block;
     color: rgb(7, 10, 6);
     text-align: center;
@@ -19,10 +19,10 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  .nav li a:hover {
     background-color: rgb(64, 247, 73);
-}
-
+  }
+  
 body {
     font-family: 'Big Shoulders Display', cursive;
 }
