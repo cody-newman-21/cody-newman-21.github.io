@@ -3,27 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Concepts</title>
-    <link href="/styles/cssconcepts.css" rel="stylesheet" type="text/css">
+    <link href="/styles/main.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
   </head>
+
   <body>
-    <div class="nav">
-      <ul>
-        <li><a href="https://cody-newman-21.github.io">Home</a></li>
-        <li><a href="https://cody-newman-21.github.io/blog/template.html">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li style="float:right"><a href="https://github.com/cody-newman-21">Portfolio</a></li>
-      </ul>
-    </div>
+  <div class="nav">
+    <ul>
+      <li><a href="https://cody-newman-21.github.io">Home</a></li>
+      <li><a href="https://cody-newman-21.github.io/blog/template.html">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li style="float:right"><a href="https://github.com/cody-newman-21">Portfolio</a></li>
+    </ul>
+  </div>
+
     <h1>CSS Concepts</h1> 
      
     <h2 >What is the difference between Margin, Border, and Padding?
     </h2>
 
-    <div id="css-body">
+    <div class="body">
     <p class="round1">As part of Sprint 2 (week 2) while studying web develeopment with <a href="https://devacademy.co.nz/">Dev Academy</a>, I have been tasked with creating this webpage and blog to showcase the skills I've learned using HTML and CSS. In particular, we're to explain a concept we have learned as if we were teaching somebody for the first time. The concepts I've chosen to explain are margin, border and padding, as I feel explaining them will help further my own understanding of them, while putting them to use behind the scenes on this page. </p>
 
     <p class="round1">CSS (Cascading Style Sheet) is a language used to determine the design of a HTML webpage and its individual sections, known as 'elements', including their shapes, colours, positioning on the page and more. All elements can be thought of as a 'box', which can be defined using the margin, border, padding and the actual content being displayed. Collectively, they're known as the 'box model', although they can each be used alone and irrespective of each other.</p>
@@ -35,7 +38,7 @@
     <img src="marginexample.png">
 
     <h4>The box model, showing the margin as a dotted line</h4>
-    <img class="image1" src="boxmodel.png">
+    <img class="borders-example" src="boxmodel.png">
 
     <h3 style = "text-decoration:underline;"> Border</h3>
     <p class="round1">A border is a little more self explanatory. It is a border/outline that goes around the content of the element, such as the border around this paragraph. Using CSS, you can specify the border including its colour, width, (using units such as 'px' or specifying 'thin'/'thick' etc.) and style, (for example: Solid, dotted or dashed). You can define each side (top, right, bottom and left) of a border, this is useful if you only want to have a border on one or more sides, or would like to style one or more sides indiviually. See my examples below.</p>
@@ -44,8 +47,8 @@
     <img src="bordercode.png">
     
     <h4>Some examples of what can be done with borders</h4>
-    <img class="image1" src="borders1.png">
-    <img class="image1" src="borders2.png">
+    <img class="borders-example" src="borders1.png">
+    <img class="borders-example" src="borders2.png">
 
     <h3 style = "text-decoration:underline;">Padding</h3>
     <p class="round1">Padding is the CSS property used to create space around an element's content, <em>inside</em> of any defined borders. Generally, the padding is transparent but unlike the margin property, it can be coloured if you wish. With CSS you can specify the padding on each individual side of the element (top, right, bottom and left). This is also achieved by using units such as 'px' (pixels) or %. In my example below, you can see the content box is coloured in green, all of the white spacing around it up to the edge of the border is the padding.</p>
