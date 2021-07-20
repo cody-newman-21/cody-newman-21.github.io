@@ -103,3 +103,13 @@ img.borders-example {
   padding-left: 80px;
   margin: auto;
 }
+
+/*Problem solving*/
+
+#assignobjects {
+  margin: 25px;
+}
+
+#fizzbuzz {
+  margin: 25px;
+}
